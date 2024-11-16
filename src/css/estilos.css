@@ -1,0 +1,78 @@
+html{
+    background: #684BB1;
+}
+
+body{
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1440px;
+    height: 100vh;
+    padding: 80px;
+}
+
+main{
+    display: flex;
+    margin-top: 100px;
+}
+
+
+main .info{
+    max-width: 520px;
+    margin-left: 80px;
+}
+
+.info h1{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.info p{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.info .btn-registro{
+    color: #684BB1;
+    background-color: white;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 28px;
+    padding: 10px 50px;
+    margin-right: 50px;
+    
+}
+
+.info a:hover{
+    color: white;
+    background-color: #E880E8;
+}
+
+footer{
+    max-width: 1440px;
+    text-align: right;
+    margin-top: 50px;
+}
+
+footer a i{
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    border-color: #FFF;
+    border-style: solid;
+}
+
+footer a:hover i{
+    color: #FF52C1;
+    border-color: #FF52C1;
+}
